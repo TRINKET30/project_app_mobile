@@ -111,6 +111,13 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2,
+            "browserTarget": "angular-boilerplate:build:production"
+          }
         }
       }
     }
@@ -118,6 +125,7 @@
   "cli": {
     "schematicCollections": [
       "@angular-eslint/schematics"
-    ]
+    ],
+    "analytics": "4d9fd216-a3cd-46d7-a5b1-484bb99eac11"
   }
 }
